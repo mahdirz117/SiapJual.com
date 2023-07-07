@@ -37,11 +37,13 @@
 
         .jumbotron {
             background: url('assets/img/BG-01.png');
-            background-position: left;
+            background-position: bottom 1% right 1%;
             background-size: cover;
             color: #f4511e;
             padding: 125px 75px;
             font-family: Montserrat, sans-serif;
+            
+
         }
 
         .container-fluid {
