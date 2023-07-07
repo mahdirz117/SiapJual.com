@@ -37,7 +37,7 @@
 
         .jumbotron {
             background: url('assets/img/BG-01.png');
-            background-position: bottom 1px right 1px;
+            background-position: bottom 1% right 1%;
             background-size: cover;
             color: #f4511e;
             padding: 125px 75px;
