@@ -36,9 +36,11 @@
         }
 
         .jumbotron {
-            background-color: #f4511e;
-            color: #fff;
-            padding: 100px 25px;
+            background: url('assets/img/BG-01.png');
+            background-position: left;
+            background-size: cover;
+            color: #f4511e;
+            padding: 125px 75px;
             font-family: Montserrat, sans-serif;
         }
 
