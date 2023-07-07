@@ -24,7 +24,7 @@
                     </div>
                 </div>
             </form>
-        </div>                     
+        </div>
     </div>
 
     <!-- Container (About Section) -->
@@ -32,15 +32,40 @@
         <div class="row">
             <div class="col-sm-8">
                 <h2>About Company Page</h2><br>
-                <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                    ex ea commodo consequat.</h4><br>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                    ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                    deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                    labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-                    ut aliquip ex ea commodo consequat.</p>
+                <h4>Selamat datang di SiapJual.com, market place yang siap memenuhi semua kebutuhan belanja Anda
+                    dengan slogan "Belanja Hemat, Dompet-pun Terawat". Kami khusus menyediakan layanan belanja online
+                    yang mengutamakan harga terjangkau dan kualitas terpercaya, dengan target market khusus pada mahasiswa.
+                </h4><br>
+                <p>SiapJual.com hadir dengan visi memberikan kemudahan dan kepraktisan bagi para mahasiswa dalam mencari dan
+                    membeli produk
+                    dengan harga yang hemat. Kami memahami betapa pentingnya mengelola anggaran dengan bijak ketika Anda
+                    berada di bangku kuliah,
+                    dan itulah mengapa kami berkomitmen untuk menyediakan berbagai barang dengan harga yang terjangkau. </p>
+
+                <p>Dengan SiapJual.com, Anda tidak perlu lagi menghabiskan waktu dan tenaga berharga
+                    untuk berkeliling mencari barang-barang kebutuhan sehari-hari. Dengan sekali klik,
+                    Anda dapat menemukan berbagai produk mulai dari makanan, minuman, kebutuhan rumah tangga,
+                    pakaian, hingga perlengkapan kuliah, semuanya tersedia di satu tempat.</p>
+
+                <p>Kami juga menyadari bahwa keamanan dan keandalan dalam berbelanja online sangat penting.
+                    Oleh karena itu, SiapJual.com hanya bekerja sama dengan penjual terpercaya dan produk berkualitas.
+                    Setiap transaksi dilindungi oleh sistem keamanan yang canggih, memberikan Anda kepercayaan penuh
+                    dalam setiap pembelian yang dilakukan.</p>
+
+                <p>Selain itu, SiapJual.com juga menyediakan fitur khusus untuk mahasiswa. Kami bekerja sama dengan berbagai
+                    mitra
+                    dan memberikan penawaran eksklusif serta diskon spesial bagi mereka yang dapat memverifikasi status
+                    mahasiswa.
+                    Dengan begitu, Anda dapat menghemat lebih banyak uang dan merawat dompet Anda saat berbelanja di
+                    SiapJual.com.</p>
+
+                <p>Jadi, tunggu apa lagi? Bergabunglah dengan ribuan mahasiswa lainnya yang telah merasakan manfaat belanja
+                    hemat
+                    dan terpercaya di SiapJual.com. Temukan barang-barang kebutuhan Anda dengan mudah, hemat waktu, dan
+                    tentu saja,
+                    hemat uang. SiapJual.com siap memberikan Anda pengalaman belanja yang terjangkau, praktis, dan
+                    memuaskan.</p>
+
                 <br><button class="btn btn-default btn-lg">Get in Touch</button>
             </div>
             <div class="col-sm-4">
