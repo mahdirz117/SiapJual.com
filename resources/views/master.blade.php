@@ -39,7 +39,7 @@
             background: url('assets/img/BG-01.png');
             background-position: bottom 1% right 1%;
             background-size: cover;
-            color: #f4511e;
+            color: #f6f6f6;
             padding: 125px 75px;
             font-family: Montserrat, sans-serif;
             
