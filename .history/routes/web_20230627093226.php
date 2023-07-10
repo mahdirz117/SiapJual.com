@@ -44,4 +44,3 @@ Route::get('/produk/edit/{id}', 'App\Http\Controllers\ProdukController@edit');
 Route::get('/produk/delete/{id}', 'App\Http\Controllers\ProdukController@delete');
 
 Route::get('/tambahproduk', 'App\Http\Controllers\ProdukController@add');
-
