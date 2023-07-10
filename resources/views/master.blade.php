@@ -47,7 +47,7 @@
         }
 
         .container-fluid {
-            padding: 60px 50px;
+            padding: 30px 50px;
         }
 
         .bg-grey {
