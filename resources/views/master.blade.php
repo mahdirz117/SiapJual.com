@@ -42,7 +42,7 @@
             color: #f6f6f6;
             padding: 125px 75px;
             font-family: Montserrat, sans-serif;
-            
+
 
         }
 

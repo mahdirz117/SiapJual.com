@@ -12,6 +12,9 @@
             <h3>Data Produk</h3>
             <p>List Produk yang ada</p>
         </div>
+        <div class="header-add">
+            <button class="btn btn-primary" onclick="window.location.href='/tambahproduk'">Tambah Produk</button>
+        </div>
     </div>
     <table>
         <tr>
@@ -21,6 +24,7 @@
             <th>Stok</th>
             <th>Kondisi</th>
             <th>Gambar</th>
+            <th>Action</th>
         </tr>
         <?php $i = 1; ?>
         @foreach($produk as $data_produk)
@@ -30,7 +34,11 @@
             <td>{{ $data_produk->harga }}</td>
             <td>{{ $data_produk->stok }}</td>
             <td>{{ $data_produk->kondisi }}</td>
-            <td><img src="{{ $data_produk->gambar }}" height="100"></td>
+            <td>{{ $data_produk->gambar }}</td>
+            <td>
+                <button class="btn btn-primary" onclick="window.location.href='/produk/edit/{{ $data_produk->id }}'">Edit</button></a>
+                <button class="btn btn-danger" onclick="window.location.href='/produk/delete/{{ $data_produk->id }}'">Delete</button></a>
+            </td>
         </tr>
         <?php $i++; ?>
         @endforeach
