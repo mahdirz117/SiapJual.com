@@ -22,6 +22,8 @@ Route::get('/logout', 'App\Http\Controllers\AuthController@logout');
 
 Route::get('/produk', 'App\Http\Controllers\ProdukController@index');
 
+Route::get('/addproduk', 'App\Http\Controllers\ProdukController@addproduk');
+
 Route::post('/insertproduk', 'App\Http\Controllers\ProdukController@insert');
 
 Route::post('/editproduk', 'App\Http\Controllers\ProdukController@update');
@@ -45,3 +47,5 @@ Route::get('/produk/delete/{id}', 'App\Http\Controllers\ProdukController@delete'
 
 Route::get('/tambahproduk', 'App\Http\Controllers\ProdukController@add');
 
+Route::get('/auth/register', [AuthController::class, 'index']);
+Route::post('/adduser', [AuthController::class, 'store']);

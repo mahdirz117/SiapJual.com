@@ -16,7 +16,7 @@
             <button class="btn btn-dark" onclick="history.back()">Kembali</button>
         </div>
     </div>
-    <form method="POST" action="/insertproduk">
+    <form method="POST" action="/insertproduk" enctype="multipart/form-data">
         @csrf
         <label for="SKU">SKU</label><br>
         <input type="text" name="SKU" id="SKU" placeholder="SKU"><br>
@@ -31,6 +31,8 @@
         <label for="kondisiBaru">Baru</label>
         <input type="radio" name="kondisi" id="kondisiBekas" value="bekas">
         <label for="kondisiBekas">Bekas</label><br>
+        <label for="gambar">Gambar</label><br>
+        <input type="file" accept="image/*" name="gambar" id="gambar"><br>
         @if ($errors->any())
         <br>
         <div class="alert alert-danger">
